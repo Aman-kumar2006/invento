@@ -1,0 +1,35 @@
+body {
+  font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+  background: linear-gradient(135deg, #232526 0%, #1a2980 100%);
+  color: #f1f1f1;
+}
+
+.card, .navbar, .table {
+  border-radius: 16px !important;
+  box-shadow: 0 12px 36px 0 rgba(0,0,0,0.17);
+}
+
+.btn-primary, .btn-success, .btn-info, .btn-warning {
+  border-radius: 24px;
+  font-weight: 600;
+}
+
+.navbar-brand {
+  font-size: 1.8em;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.table-dark th, .table-dark td {
+  vertical-align: middle;
+}
+
+.table-danger {
+  background-color: #c70039 !important;
+  color: #fff !important;
+}
+
+.alert {
+  border-radius: 32px;
+  box-shadow: 0 2px 4px 0 rgba(0,10,40,0.2);
+}

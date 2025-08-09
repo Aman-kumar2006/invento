@@ -1,0 +1,6 @@
+Flask
+Werkzeug
+Flask-Login
+pandas
+matplotlib
+reportlab

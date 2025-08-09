@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}{{ "Update" if item else "Add" }} Item{% endblock %}
+{% block content %}
+<div class="card p-4">
+<h2 class="mb-3">{{ "Update" if item else "Add" }} Item</h2>
+<form method="post">
+  <div class="mb-2"><input type="text" name="name" class="form-control" value="{{ item['name'] if item else '' }}" placeholder="Name" required></div>
+  <div class="mb-2"><input type="number" name="quantity" class="form-control" value="{{ item['quantity'] if item else '' }}" placeholder="Quantity" required></div>
+  <div class="mb-2"><input type="number" step="0.01" name="price" class="form-control" value="{{ item['price'] if item else '' }}" placeholder="Price" required></div>
+  <div class="mb-2"><input type="text" name="supplier" class="form-control" value="{{ item['supplier'] if item else '' }}" placeholder="Supplier"></div>
+  <div class="mb-2"><input type="text" name="category" class="form-control" value="{{ item['category'] if item else '' }}" placeholder="Category"></div>
+  <div class="mb-2"><input type="text" name="barcode" class="form-control" value="{{ item['barcode'] if item else '' }}" placeholder="Barcode"></div>
+  <button class="btn btn-primary" type="submit">{{ "Update" if item else "Add" }}</button>
+</form>
+</div>
+{% endblock %}
