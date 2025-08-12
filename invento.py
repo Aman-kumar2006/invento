@@ -516,7 +516,7 @@ def download_invoice(sale_id):
     c.line(50, 685, 550, 685)
     c.drawString(50, 670, f"Item: {sale['product_name']}")
     c.drawString(50, 650, f"Quantity: {sale['quantity']}")
-    c.drawString(50, 630, f"Total: ₹{sale['total_price']:.2f}")
+    c.drawString(50, 630, f"Total: Rs{sale['total_price']:.2f}/-")
     c.drawString(50, 610, "Thank you for your purchase!")
     c.save()
     buffer.seek(0)
