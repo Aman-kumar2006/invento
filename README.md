@@ -1,11 +1,11 @@
 
-# Invento — Cloud Inventory Manager
+# [Invento](https://invento-bgfx.onrender.com) — Cloud Inventory Manager
 
-[![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)](https://www.python.org/)
-[![Flask](https://img.shields.io/badge/Flask-2.3-lightgrey?logo=flask)](https://flask.palletsprojects.com/)
-[![Supabase](https://img.shields.io/badge/Database-Supabase-brightgreen?logo=supabase)](https://supabase.com/)
-[![Gunicorn](https://img.shields.io/badge/Server-Gunicorn-green?logo=gunicorn)](https://gunicorn.org/)
-[![Render](https://img.shields.io/badge/Deploy-Render-blue?logo=render)](https://render.com/)
+[![Python](https://img.shields.io/badge/Python%203.11-black?logo=python&logoColor=3776AB)](https://www.python.org/)
+[![Flask](https://img.shields.io/badge/Flask%202.3-000000?logo=flask&logoColor=3BABC3)](https://flask.palletsprojects.com/)
+[![Supabase](https://img.shields.io/badge/Supabase-000000?logo=supabase&logoColor=3FCF8E)](https://supabase.com/)
+[![Gunicorn](https://img.shields.io/badge/Gunicorn-000000?logo=gunicorn&logoColor=499848)](https://gunicorn.org/)
+[![Render](https://img.shields.io/badge/Render-black?logo=render&logoColor=white)](https://render.com/)
 
 ##  Overview
 **Invento** is a cloud-based inventory and sales tracking system built with **Flask** and **Supabase**.  
@@ -114,10 +114,3 @@ MIT License — feel free to use, modify, and share.
 
 > Built with ❤ using **Flask** + **Supabase** for a modern, cloud-first inventory system.
 
-
-
-
-
-I can also make you a **`requirements.txt`** and **`Procfile`** so this README lines up with your deployment workflow.  
-Do you want me to prepare those next so your GitHub repo is 100% deploy-ready?
-```
