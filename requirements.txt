@@ -1,7 +1,9 @@
-Flask
-Werkzeug
-Flask-Login
+gunicorn
+flask
+flask-login
+python-dotenv
+supabase
+werkzeug
 pandas
 matplotlib
 reportlab
-gunicorn
